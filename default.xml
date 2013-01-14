@@ -250,7 +250,6 @@
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media"/>
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
@@ -365,7 +364,6 @@
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb-mr1" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr1" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb-mr1" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
@@ -383,7 +381,11 @@
   <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="ev" revision="jellybean"/>
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="ev" revision="jellybean"/>
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="ev" revision="jellybean"/>
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="ev" revision="jellybean"/>
   <project path="system/core" name="android_system_core" remote="ev" revision="jellybean" />
+  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="ev" revision="jellybean" />
+  <project path="device/htc/shooteru" name="android_device_htc_shooteru" remote="ev" revision="jellybean" />
+  <project path="vendor/htc" name="android_vendor_htc" remote="ev" revision="jellybean" />
   <!-- Evervolv end -->
 
   <project path="platform_manifest" name="midnight88/aokp_manifest" remote="aokp" revision="master" />
